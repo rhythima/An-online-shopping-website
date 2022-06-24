@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>|Guldasta.com|</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" media="screen and (max-width:1170px)" href="phone.css">
+</head>
+<body>
+    <nav id="navbar">
+        <div id="logo">
+            <img src="logo (2).jpg" alt="Guldasta.com">
+        </div>
+        <ul>
+            <li class="item"><a href="#home">Home</a></li>
+            <li class="item"><a href="#services">Services</a></li>
+            <li class="item"><a href="#client-section">About Us</a></li>
+            <li class="item"><a href="#contact">Contact Us</a></li>
+            <!-- <li class="item"><a href></a></li> -->
+        </ul>
+    </nav>
+    <section id="home">
+        <h1 class="h-primary">Welcome To Guldasta</h1>
+        <p>
+           <b>Your one stop shop to buy/book fresh flowers!</b><br>
+        </p>
+        <p>
+            Small and bulk orders both are acceptable.<br>For more details, refer to contact us section.
+        </p>
+        <button class="btn">Order Now :)</button>
+    </section>
+    
+    <section class="services-container">
+        <h1 class="h-primary center">Order Flowers For:</h1>
+        <div id="services">
+            <div class="box">
+                <img src="img/1.jpg" alt="services">
+                <h2 class="h-secondary center">Weddings</h2>
+                <p class="center">Light up your big day with the world's best fragnances and make it memorable!</p>
+            </div>
+            <div class="box">
+                <img src="img/2.jpg" alt="services">
+                <h2 class="h-secondary center">Birthdays</h2>
+                <p class="center">No party is complete without your guests drooling over the catchy fragnances at your house!</p>
+            </div>
+            <div class="box">
+                <img src="img/3.jpg" alt="services">
+                <h2 class="h-secondary center">Anniversaries</h2>
+                <p class="center">Flowers and Fragnances are all about occasions full of love, compassion and celebration!</p>
+            </div>
+        </div>
+    </section>
+    <section id="client-section">
+        <h1 class="h-primary center">Stocks Available :</h1>
+        <div id="clients" >
+            <div class="client-item">
+                <img src="img/flow1.jpg" alt="Type1">
+                <p>HYDRANGIAS</p>
+            </div>
+            <div class="client-item">
+                <img src="img/flow2.jpg" alt="Type2">
+                <p>TULIPS</p>
+            </div>
+            <div class="client-item">
+                <img src="img/flow3.jpg" alt="Type3">
+                <p>ROSES</p>
+            </div>
+            <div class="client-item">
+                <img src="img/flow4.jpg" alt="Type4">
+                <p>LILIES</p>
+            </div>
+            <div class="client-item">
+                <img src="img/flow7.jpg" alt="Type5">
+                <p>CHERRY BLOSSOMS</p>
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <h1 class="h-primary center">For Enquries :</h1>
+        <div id="contact-box" id="contact-form">
+            <form action="">
+                <div class="form-group">
+                    <label for="name">Name </label>
+                    <input type="text" name="name" id="name" placeholder="Enter your name">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email </label>
+                    <input type="email" name="name" id="email" placeholder="Enter your email">
+                </div>
+                <div class="form-group">
+                    <label for="phone">Phone Number </label>
+                    <input type="phone" name="name" id="phone" placeholder="Enter your phone number">
+                </div>
+                <div class="form-group">
+                    <label for="message">Description/Feedback </label>
+                    <textarea name="message" id="message" cols="30" rows="10"></textarea>
+                </div><br>
+                <div class="form-group">
+                    <label for="sumbit"></label>
+                    <input type="submit" name="submit" id="submit">
+                </div>
+            </form>
+        </div>
+    </section>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/firebase/7.14.1-0/firebase.js"></script>
+    <script src="./mail.js"></script>
+    <footer>
+        <div class="center">
+            Copyright &copy; www.guldasta.com<br> All rights reserved!
+        </div>
+    </footer>
+</body>
+</html>
